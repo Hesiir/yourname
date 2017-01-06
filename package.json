@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"start:ios": "PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:${PATH} react-native run-ios",
+		"app": "react-native run-android",
 		"test": "jest"
 	},
 	"dependencies": {
