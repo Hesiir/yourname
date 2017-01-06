@@ -1,0 +1,46 @@
+{
+  "TOPICS": {
+    "archive": {
+      "text": "Archive",
+      "icon": "ios-archive-outline",
+      "selectedIcon": "ios-archive",
+      "_config": {
+        "moduleList": ["message", "email"],
+        "modules": [
+          {
+            "name": "message"
+          },
+          {
+            "name": "email"
+          }
+        ]
+      }
+    },
+    "news": {
+      "text": "News",
+      "icon": "ios-globe-outline",
+      "selectedIcon": "ios-globe"
+    },
+    "transaction": {
+      "text": "Transaction",
+      "icon": "ios-cart-outline",
+      "selectedIcon": "ios-cart"
+    },
+    "social": {
+      "text": "Social",
+      "icon": "ios-people-outline",
+      "selectedIcon": "ios-people"
+    },
+    "personal": {
+      "text": "Personal",
+      "icon": "ios-color-palette-outline",
+      "selectedIcon": "ios-color-palette"
+    }
+  },
+  "THEME": {
+    "color": "rgba(47, 124, 246, 1)",
+    "subColor": "rgba(47, 124, 246, .8)",
+    "fontColor": "#555555",
+    "fontSubColor": "#bbbbbb"
+  }
+}
